@@ -13,6 +13,10 @@ namespace Vizsgafeladat.Controllers
         {
             _context = context;
         }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         public IActionResult Problemreport()
         {
