@@ -6,10 +6,6 @@ public class ReportDbContext : DbContext
 {
     public ReportDbContext(DbContextOptions<ReportDbContext> options) 
         : base(options) { }
-    public ReportDbContext() : base(new DbContextOptionsBuilder().UseSqlServer(
-        "Server=(localdb)\\mssqllocaldb;Database=DogFarmDB;Trusted_Connection=True;"
-        ).Options)
-    { }    
 
 public DbSet<Report> Reports { get; set; }
 public DbSet<TheTask> Tasks { get; set; }

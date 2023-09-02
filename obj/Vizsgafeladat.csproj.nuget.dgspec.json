@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dszeder\\source\\repos\\Vizsgafeladat\\Vizsgafeladat\\Vizsgafeladat.csproj": {}
+    "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dszeder\\source\\repos\\Vizsgafeladat\\Vizsgafeladat\\Vizsgafeladat.csproj": {
+    "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dszeder\\source\\repos\\Vizsgafeladat\\Vizsgafeladat\\Vizsgafeladat.csproj",
+        "projectUniqueName": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj",
         "projectName": "Vizsgafeladat",
-        "projectPath": "C:\\Users\\dszeder\\source\\repos\\Vizsgafeladat\\Vizsgafeladat\\Vizsgafeladat.csproj",
+        "projectPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj",
         "packagesPath": "C:\\Users\\dszeder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dszeder\\source\\repos\\Vizsgafeladat\\Vizsgafeladat\\obj\\",
+        "outputPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
