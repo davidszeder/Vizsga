@@ -156,3 +156,11 @@ C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\ne
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\Vizsgafeladat.pdb
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\Vizsgafeladat.genruntimeconfig.cache
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\ref\Vizsgafeladat.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Humanizer.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

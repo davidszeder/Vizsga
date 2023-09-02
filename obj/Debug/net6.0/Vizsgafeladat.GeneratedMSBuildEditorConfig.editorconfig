@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dszeder/OneDrive - Transcend Water/Documents/GitHub/Vizsga/Views/Home/Confirm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtLmNzaHRtbA==
+[C:/Users/dszeder/OneDrive - Transcend Water/Documents/GitHub/Vizsga/Views/Home/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dszeder/OneDrive - Transcend Water/Documents/GitHub/Vizsga/Views/Home/Index.cshtml]
