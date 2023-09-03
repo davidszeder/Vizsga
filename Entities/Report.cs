@@ -19,11 +19,11 @@ namespace Vizsgafeladat.Entities
         /// <summary>
         /// Az észlelés körzetszáma.
         /// </summary>
-        public string? ZipCode { get; set; }
+        public int? ZipCode { get; set; }
         /// <summary>
         /// Az észlelés körzete.
         /// </summary>
-        public string? District { get; set; }
+        public int? District { get; set; }
         /// <summary>
         /// Az észlelés dátuma.
         /// </summary>

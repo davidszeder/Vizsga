@@ -7,12 +7,13 @@ public class ReportDbContext : DbContext
     public ReportDbContext(DbContextOptions<ReportDbContext> options) 
         : base(options) { }
     public ReportDbContext()
-    : base(new DbContextOptionsBuilder<ReportDbContext>()
-           .UseSqlServer("YourConnectionStringHere")
-           .Options)
+        : base(new DbContextOptionsBuilder<ReportDbContext>()
+               .UseSqlServer("ReportDbContext")
+               .Options)
     { }
 
-    public DbSet<Report> Reports { get; set; }
+
+public DbSet<Report> Reports { get; set; }
 public DbSet<TheTask> Tasks { get; set; }
 public DbSet<Worker> Workers { get; set; }
 
