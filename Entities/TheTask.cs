@@ -20,7 +20,7 @@ namespace Vizsgafeladat.Entities
         /// <summary>
         /// A javítás típusa.
         /// </summary>
-        public string RepairType { get; set; }
+        public string? RepairType { get; set; }
         /// <summary>
         /// A javítás dátuma.
         /// </summary>
@@ -31,8 +31,8 @@ namespace Vizsgafeladat.Entities
         public int WorkerID { get; set; }
 
         // Navigációk a report és munkás felé
-        public Report Report { get; set; }
-        public Worker Worker { get; set; }
+        public Report? Report { get; set; }
+        public Worker? Worker { get; set; }
         public override string ToString() => $"({ID}): Report {ReportID} - Dolgozó {WorkerID}";
     }
 }

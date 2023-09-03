@@ -15,15 +15,15 @@ namespace Vizsgafeladat.Entities
         /// <summary>
         /// Az észlelés helyszíne.
         /// </summary>
-        public string Address { get; set; }
+        public string? Address { get; set; }
         /// <summary>
         /// Az észlelés körzetszáma.
         /// </summary>
-        public string ZipCode { get; set; }
+        public string? ZipCode { get; set; }
         /// <summary>
         /// Az észlelés körzete.
         /// </summary>
-        public string District { get; set; }
+        public string? District { get; set; }
         /// <summary>
         /// Az észlelés dátuma.
         /// </summary>
