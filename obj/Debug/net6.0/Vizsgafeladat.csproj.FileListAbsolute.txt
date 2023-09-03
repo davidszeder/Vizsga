@@ -164,5 +164,3 @@ C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\ne
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\VizsgafeladatConsole1\obj\project.assets.json
-C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\VizsgafeladatConsole1\obj\VizsgafeladatConsole1.csproj.nuget.dgspec.json

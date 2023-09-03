@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vizsgafeladat", "Vizsgafeladat.csproj", "{C8AC1574-8A22-43D5-91F6-F3B00AE2E37D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vizsgafeladat", "Vizsgafeladat.csproj", "{C8AC1574-8A22-43D5-91F6-F3B00AE2E37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VizsgafeladatConsoleApp1", "..\VizsgafeladatConsoleApp1\VizsgafeladatConsoleApp1.csproj", "{6FECDB4E-CD96-4B4E-AF86-A99F88AD6366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C8AC1574-8A22-43D5-91F6-F3B00AE2E37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8AC1574-8A22-43D5-91F6-F3B00AE2E37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8AC1574-8A22-43D5-91F6-F3B00AE2E37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FECDB4E-CD96-4B4E-AF86-A99F88AD6366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FECDB4E-CD96-4B4E-AF86-A99F88AD6366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FECDB4E-CD96-4B4E-AF86-A99F88AD6366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FECDB4E-CD96-4B4E-AF86-A99F88AD6366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
