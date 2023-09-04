@@ -1,12 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Vizsgafeladat;
-using Vizsgafeladat.Entities;
-using System.Linq;
 
 var builder = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json");
+.SetBasePath(Directory.GetCurrentDirectory())
+.AddJsonFile("appsettings.json");
 var configuration = builder.Build();
 var connectionString = configuration.GetConnectionString("ReportDbContext");
 var options = new DbContextOptionsBuilder<ReportDbContext>()
@@ -18,71 +16,55 @@ var reports = dbContext.Reports.ToList();
 Console.WriteLine($"{reports.Count} darab bejegyzés található.");
 
 
-var pendingReports = dbContext.Reports
-                              .Where(r => !r.Tasks.Any()) // Ha a bejegyzéshez (Report) nem tartozik Task, akkor az elvégzetlennek minősül!
-                              .ToList();
+Console.WriteLine("Írjon be körzetszámot, kerületszámot, vagy 100-nál kisebb számot (ahány nappal ezelőttig felvett feladatokat szeretné látni)!:");
+var input = Console.ReadLine();
 
-Console.WriteLine("Válassza az elvégzett bejegyzést:");
-for (int i = 0; i < pendingReports.Count; i++)
+if (int.TryParse(input, out int number))
 {
-    Console.WriteLine($"{i + 1}. {pendingReports[i].Address} reported on {pendingReports[i].ReportDate}"); //listázzuk a bejegyzéseket
-}
-
-int selectedTaskIndex;
-while (true)
-{
-    if (int.TryParse(Console.ReadLine(), out selectedTaskIndex) && selectedTaskIndex >= 1 && selectedTaskIndex <= pendingReports.Count)
+    if (number < 100)
     {
-        break;
+        var dateThreshold = DateTime.Now.AddDays(-number);
+        reports = dbContext.Reports
+                             .Where(r => r.ReportDate >= dateThreshold)
+                             .ToList();
+
+        Console.WriteLine($"Az utóbbi {number} napban bejegyzett feladatok:");
+        foreach (var report in reports)
+        {
+            Console.WriteLine($"- {report.Address} került bejegyzésre {report.ReportDate}");
+        }
     }
-    Console.WriteLine("Helytelen számot adott meg, nem létezik feladat ezen a sorszámon.");
-}
-
-var selectedReport = pendingReports[selectedTaskIndex - 1];
-
-Console.WriteLine("Válassza ki a munka típusát (a munka sorszámának beírásával):");  //Munka típusának beírása
-string[] repairTypes = { "Izzócsere", "Lámpabúra javítás", "Vezeték javítás" }; //Listként hoztam létre, de  még bővíthető, vagy enum is használható
-for (int i = 0; i < repairTypes.Length; i++)  
-{
-    Console.WriteLine($"{i + 1}. {repairTypes[i]}");  // MUnkatípushoz sorszám generálás
-}
-
-int selectedRepairTypeIndex;
-while (true)
-{
-    if (int.TryParse(Console.ReadLine(), out selectedRepairTypeIndex) && selectedRepairTypeIndex >= 1 && selectedRepairTypeIndex <= repairTypes.Length)
+    else if (number >= 101 && number <= 123)
     {
-        break;
+        string firstThreeDigits = number.ToString();
+
+        reports = dbContext.Reports
+                           .Where(r => r.ZipCode.StartsWith(firstThreeDigits))
+                           .ToList();
+
+        Console.WriteLine($"Feladatok a {number} körzet/kerületszámon:");
+        foreach (var report in reports)
+        {
+            Console.WriteLine($"- {report.Address} bejegyezve {report.ReportDate} napon");
+        }
     }
-    Console.WriteLine("Nem jó munkatípust választott!");
-}
-
-string selectedRepairType = repairTypes[selectedRepairTypeIndex - 1];
-
-
-Console.WriteLine("Írja be az azonosító számát!");
-
-var workers = dbContext.Workers;
-int workerIdEntered;
-
-while (true)
-{
-    if (int.TryParse(Console.ReadLine(), out workerIdEntered) && dbContext.Workers.Any(w => w.ID == workerIdEntered))
+    else
     {
-        break;
+
+        string numberString = number.ToString();
+
+        reports = dbContext.Reports
+                           .Where(r => r.ZipCode == numberString || r.District == numberString)
+                           .ToList();
+
+        Console.WriteLine($"Feladatok a {number} körzet/kerületszámon:");
+        foreach (var report in reports)
+        {
+            Console.WriteLine($"- {report.Address} bejegyezve {report.ReportDate} napon");
+        }
     }
-    Console.WriteLine("Helytelen azonosító. Kérem próbálja újra!");
 }
-
-var task = new TheTask
+else
 {
-    ReportID = selectedReport.ID,
-    WorkerID = workerIdEntered,
-    RepairType = selectedRepairType,
-    RepairDate = DateTime.Now
-};
-
-dbContext.Tasks.Add(task);
-dbContext.SaveChanges();
-
-Console.WriteLine("Feladat sikeresen elvégezve!");
+    Console.WriteLine("Helytelen a bevitt adat. Kérem próbáljon számot megadni!");
+}
