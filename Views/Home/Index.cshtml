@@ -2,13 +2,47 @@
     ViewData["Title"] = "Home";
 }
 
+<style>
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+</style>
+
 <div class="container mt-5">
-    <h1>Welcome to Mindig Fényes kft</h1>
+    <h1>Üdvözöljük a Mindig Fényes Kft-nél</h1>
     <p>
-        We are dedicated to maintaining public lighting in our community. If you've noticed a problem with any public light, please let us know.
+        Ha problémát észlelt bármelyik közvilágítással kapcsolatban, kérjük, értesítsen minket.
     </p>
     <p>
-        Use the button below to report a problem. Your feedback helps us ensure that our streets remain well-lit and safe.
+        Országos lefedettséggel rendelkező karbantartási hálózatunk az előforduló meghibásodásokat általában a rendeletben előírtnál rövidebb határidővel hárítja el, ezzel is növelve ügyfeleink kényelmét és az ellátás biztonságát.
     </p>
-    <a href="/Home/Problemreport" class="btn btn-primary">Report a Problem</a>
+    <p>
+        Használja az alábbi gombot a probléma jelentéséhez. Visszajelzése segít minket abban, hogy utcáink továbbra is jól világítottak és biztonságosak maradjanak.
+    </p>
+    <a href="/Home/Problemreport" class="btn btn-primary">Probléma Bejelentése</a>
 </div>
