@@ -29,6 +29,7 @@ namespace Vizsgafeladat.Entities
         /// A dolgozó azonosítója.
         /// </summary>
         public int WorkerID { get; set; }
+        public string? WorkerName { get; set; }
 
         // Navigációk a report és munkás felé
         public Report? Report { get; set; }

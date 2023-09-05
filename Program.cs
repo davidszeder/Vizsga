@@ -39,7 +39,7 @@ if (int.TryParse(input, out int number))
         string firstThreeDigits = number.ToString();
 
         reports = dbContext.Reports
-                           .Where(r => r.ZipCode.StartsWith(firstThreeDigits))
+                           .Where(r => r.ZipCode == null || r.ZipCode.StartsWith(firstThreeDigits))
                            .ToList();
 
         Console.WriteLine($"Feladatok a {number} körzet/kerületszámon:");
