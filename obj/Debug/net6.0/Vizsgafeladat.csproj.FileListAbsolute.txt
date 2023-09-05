@@ -174,3 +174,5 @@ C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\ne
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\App.config
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\packages.config
 C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Vizsgafeladat.dll.config
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Vizsgafeladat.Tests\obj\project.assets.json
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\bin\Debug\net6.0\Vizsgafeladat.Tests\obj\Vizsgafeladat.Tests.csproj.nuget.dgspec.json
