@@ -1,0 +1,5 @@
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\VizsgafeladatConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\VizsgafeladatConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\VizsgafeladatConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\VizsgafeladatConsoleApp1.AssemblyInfo.cs
+C:\Users\dszeder\OneDrive - Transcend Water\Documents\GitHub\Vizsga\obj\Debug\net6.0\VizsgafeladatConsoleApp1.csproj.CoreCompileInputs.cache

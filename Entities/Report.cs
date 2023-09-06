@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Vizsgafeladat.Entities
+﻿namespace Vizsgafeladat.Entities
 {
     public class Report
     {

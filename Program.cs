@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using System.Diagnostics;
+﻿using Microsoft.EntityFrameworkCore;
 using Vizsgafeladat;
 
 
