@@ -1277,6 +1277,25 @@
             "rid": "win"
           }
         }
+      },
+      "Vizsgafeladat/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vizsgafeladat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vizsgafeladat.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3786,6 +3805,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Vizsgafeladat/1.0.0": {
+      "type": "project",
+      "path": "Vizsgafeladat.csproj",
+      "msbuildProject": "Vizsgafeladat.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3795,7 +3819,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
       "Microsoft.Extensions.Configuration >= 7.0.0",
-      "Microsoft.Extensions.Configuration.Json >= 7.0.0"
+      "Microsoft.Extensions.Configuration.Json >= 7.0.0",
+      "Vizsgafeladat >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3805,9 +3830,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj",
-      "projectName": "Vizsgafeladat",
-      "projectPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj",
+      "projectUniqueName": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\VizsgafeladatConsoleApp1.csproj",
+      "projectName": "VizsgafeladatConsoleApp1",
+      "projectPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\VizsgafeladatConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\dszeder\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\obj\\",
       "projectStyle": "PackageReference",
@@ -3825,13 +3850,16 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj": {
+              "projectPath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3885,9 +3913,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

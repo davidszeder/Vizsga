@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p40adSXh864y7f4RQ0qkwWQZ8ekZ+3t9wn63D10Dq13lSYONHkkbQ7K3dGdkBvbG7LqU4ok97XxoD7cxp9xvuQ==",
+  "dgSpecHash": "JLfoP4yZNKXGe4eO29NV36PAqpKRymK99tqa+b9vxNZJJIiSXh17lGov60E+5kDQKTb9cBxJ0oFsSnke3P6G3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\Vizsgafeladat.csproj",
+  "projectFilePath": "C:\\Users\\dszeder\\OneDrive - Transcend Water\\Documents\\GitHub\\Vizsga\\VizsgafeladatConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dszeder\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dszeder\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
